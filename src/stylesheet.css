@@ -1,0 +1,75 @@
+*{
+    -fx-font-family: "Century Gothic";
+
+}
+/*
+.button{
+    -fx-padding: 0.7em 0.57em;
+    -fx-font-size: 12px;
+    -fx-background-color: rgb(77,102,204);
+    -fx-pref-width: 120;
+    -fx-text-fill: White;
+
+}
+
+.check-box{
+    -jfx-checked-color: RED;
+    -fx-unchecked-color: BLACK;
+}
+
+.choice-box{
+    -fx-arrows-visible: False;
+    -fx-background-color: Black;
+    -fx-prompt-text-fill: White;
+    -fx-text-fill: White;
+}
+*/
+.toggle-button {
+    -fx-padding: 0.7em 0.57em;
+    -fx-font-size: 15px;
+    -fx-background-color: Transparent;
+    -fx-text-fill: Black;
+    -fx-pref-width: 180;
+}
+.toggle-button:selected {
+    -fx-padding: 0.7em 0.57em;
+    -fx-font-size: 14px;
+    -fx-background-color: rgb(77,204,102);
+    -fx-pref-width: 180;
+    -fx-text-fill: WHITE;
+}
+
+
+/*
+.label{
+    -fx-padding:20
+}
+
+.radio-button .radio {
+    -fx-border-width: 1px;
+    -fx-border-color: #000;
+    -fx-background-color: white;
+    -fx-background-image: null;
+    -fx-border-radius: 15px;
+    -fx-padding: 4px;
+}
+.radio-button .radio:selected {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button -radio:armed {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button -radio:determinate {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button -radio:indeterminate {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button .dot {
+    -fx-background-radius: 15px;
+    -fx-padding: 8px;
+}*/
